@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e8e8e8;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",Helvetica,Arial,Tahoma,Verdana;
+}
+a {
+    color: #5B5B5B;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #e99514;
+    text-decoration: none;
+}
+p {
+	margin:0;
+	padding:0;
+}
+
+p{
+    color:#989898;
+    font-size:14px;
+}
+ul{
+ list-style:0;
+ font-size:14px;
+ color:#989898;
+}
+/********************************************/
+.colorDarkBlue {
+	color: #0988D4;
+}
+.colorLightBlue {
+    color: #00A2FF;
+}
+.colorGrey {
+	color: #646464;
+}
+.colorLightGrey {
+    color: #6E6E6E;
+}
+.textCenter {
+	text-align:center;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/********************************************/
+.mainTop {
+    height: auto;
+    background: #FFFFFF;
+    min-width: 960px;
+}
+.header {
+    padding-left: 0px;
+    padding-top: 20px;
+    height: 90px;
+	background-color: #fafafa;
+}
+.header .logo {
+    display: block;
+    float: left;
+    width: 270px;
+    cursor: pointer;
+    height: 80px;
+    background: url('../images/topLogo.png') no-repeat;
+}
+.header .menu {
+    padding: 22px 0 0 0;
+}
+.header .menu .lk {
+    margin: 0 40px 0 0;
+}
+.header .menu .last {
+    margin:0;
+}
+.on a {
+    color: #e99514;
+}
+.header .menu .lk a {
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+.wrapperMax {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+.box {
+    overflow:visible;
+    height: 460px;
+    position: relative;
+}
+
+.footerGrey {
+    background: none repeat scroll 0 0 #333333;
+    border-top: 1px solid #E7E7E7;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.footerContent {
+    margin:40px auto 0;
+	width: 960px;
+}
+.like {
+    float:left;
+    margin:0 0 0 25px;
+}
+.footerLinks {
+    color:#656565;
+    float:right;
+    font-size:13px;
+}
+.footerLinks span {
+    margin:0 25px 0 0;
+}
+/***********************************************************/
+.headerWhite {
+    background: #fafafa;
+    border-bottom: 3px solid #F8B21B;
+    padding-left: 0px;
+}
+.layout980 {
+	width:980px;
+}
+.aboutUs p {
+    margin-left: 40px;
+}
+.aboutUs ul {
+    margin-left: 40px;
+}
+.members {
+    margin: 0px;
+	height: 373px;
+	background: url(../images/memberBg.jpg) no-repeat scroll 0 0;
+}
+.layout1040 {
+    width: 980px;
+}
+.members .member {
+	width:190px;
+}
+.members .photo {
+	background: url(../images/people.gif) no-repeat scroll 0;
+	height: 290px;
+	margin-left: 40px;
+	width: 180px;
+}
+.members .member .mname {
+    color: #494949;
+	font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.mname {
+    font-size: 16px;
+}
+.members .member .mpos {
+    color: #646464;
+    text-align: center;
+}
+.mpos {
+    font-size: 14px;
+}
+.members .m2 {
+	background-position: -200px;
+}
+.members .m3 {
+	background-position: -400px;
+}
+.members .m4 {
+	background-position: -580px;
+}
+.members .m5 {
+	background-position: -770px;
+}
+/*******************************************/
+.joinUs p{
+    color: #4C4C4C !important; 
+    text-align: center;
+}
+.joinUs .email{
+    color: #E47D0F
+}
+.joinUsText {
+    margin-top: 60px;
+}
+.joinUsNote {
+    margin-bottom: 18px;
+    background: url(../images/joinusBg.jpg);
+    height: 427px;
+}
+.joinUsNote .wrapper{
+    padding-top: 100px;
+}
+.joinUsNote p {
+    font-size: 20px;
+    line-height: 90px;
+    text-shadow: 0 0 4px #CCC;
+}
+.jobList {
+    height: 360px;
+    margin-top: 40px;
+    
+}
+.jobList .job {
+    float: left;
+    width:239px;
+    height:150px;
+    margin: 0 0 30px 0;
+}
+.jobList .job .image{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background: url(../images/jobs.gif) -85px -30px no-repeat;
+}
+.jobList .job2 .image {
+    background: url(../images/jobs.gif) -390px -30px no-repeat;
+}
+.jobList .job3 .image {
+    background: url(../images/jobs.gif) -675px -30px no-repeat;
+}
+.jobList .job4 .image {
+    background: url(../images/jobs.gif) -953px -30px no-repeat;
+}
+.jobList .job5 .image {
+    background: url(../images/jobs.gif) -85px -220px no-repeat;
+}
+.jobList .job6 .image {
+    background: url(../images/jobs.gif) -390px -220px no-repeat;
+}
+.jobList .job7 .image {
+    background: url(../images/jobs.gif) -675px -220px no-repeat;
+}
+.jobList .job8 .image {
+    background: url(../images/jobs.gif) -953px -220px no-repeat;
+}
+/**************************************************/
+.contactUsText {
+    font-size: 14px;
+    line-height: 14px;
+}
+.contactUsText p {
+	line-height:20px;
+}
+
+.contactUsText h3 {
+    color: #f9b116;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 17px;
+    margin-top: 60px;
+}
+.contactUsText .last {
+    margin-bottom: 40px;
+}
+.contactUsText .map {
+    float:right;
+    box-shadow: 0 0 5px #aaa;
+    border-radius: 5px;
+}
+.context .sectiontitle h1{
+	color:#f99712;
+}
+.context .sectiontitle span{
+	font-size:45px;
+}
+
+.parablock{
+	height:30px;
+	width:inherit;
+}

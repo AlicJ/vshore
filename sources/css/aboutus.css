@@ -1,0 +1,52 @@
+/*style sheet for about us page*/
+.aboutUs p {
+    margin-left: 40px;
+}
+.aboutUs ul {
+    margin-left: 40px;
+}
+.members {
+    margin: 0px;
+	height: 373px;
+	background: url(../images/memberBg.jpg) no-repeat scroll 0 0;
+}
+.layout1040 {
+    width: 980px;
+}
+.members .member {
+	width:190px;
+}
+.members .photo {
+	background: url(../images/people.gif) no-repeat scroll 0;
+	height: 290px;
+	margin-left: 40px;
+	width: 180px;
+}
+.members .member .mname {
+    color: #494949;
+	font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.mname {
+    font-size: 16px;
+}
+.members .member .mpos {
+    color: #646464;
+    text-align: center;
+}
+.mpos {
+    font-size: 14px;
+}
+.members .m2 {
+	background-position: -200px;
+}
+.members .m3 {
+	background-position: -400px;
+}
+.members .m4 {
+	background-position: -580px;
+}
+.members .m5 {
+	background-position: -770px;
+}

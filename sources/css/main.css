@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei","微软雅黑",Helvetica,Arial,Tahoma,Verdana;
+}
+a {
+    color: #5B5B5B;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #e99514;
+    text-decoration: none;
+}
+p {
+	margin:0;
+	padding:0;
+}
+
+p{
+    color:#989898;
+    font-size:14px;
+}
+ul{
+ list-style:none;
+ font-size:14px;
+ color:#989898;
+}
+/********************************************/
+.center {
+	text-align: center;
+}
+.under {
+	text-decoration: underline;
+}
+.bold {
+	font-weight: 700;
+}
+.left{
+	text-align: left;
+}
+.indent{
+	margin-left: 50px;
+}
+/********************************************/
+.colorDarkBlue {
+	color: #0988D4;
+}
+.colorLightBlue {
+    color: #00A2FF;
+}
+.colorGrey {
+	color: #646464;
+}
+.colorLightGrey {
+    color: #6E6E6E;
+}
+.textCenter {
+	text-align:center;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/********************************************/
+.mainTop {
+    height: auto;
+    background: #FFFFFF;
+    min-width: 960px;
+}
+.header {
+    padding-left: 0px;
+    padding-top: 20px;
+    height: 90px;
+	background-color: #fafafa;
+}
+.header .logo {
+    display: block;
+    float: left;
+    width: 270px;
+    cursor: pointer;
+    height: 80px;
+    background: url('../images/topLogo.png') no-repeat;
+}
+.header .menu {
+    padding: 22px 0 0 0;
+}
+.header .menu .lk {
+    margin: 0 40px 0 0;
+}
+.header .menu .last {
+    margin:0;
+}
+.on a {
+    color: #e99514;
+}
+.header .menu .lk a {
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+.wrapperMax {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+.box {
+    overflow:visible;
+    height: 460px;
+    position: relative;
+}
+
+.footerGrey {
+    background: none repeat scroll 0 0 #333333;
+    border-top: 1px solid #E7E7E7;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.footerContent {
+    margin:40px auto 0;
+	width: 960px;
+}
+.like {
+    float:left;
+    margin:0 0 0 25px;
+}
+.footerLinks {
+    color:#656565;
+    float:right;
+    font-size:13px;
+}
+.footerLinks span {
+    margin: 0 0 0 25px;
+}
+/***********************************************************/
+.headerWhite {
+    background: #fafafa;
+    border-bottom: 3px solid #F8B21B;
+    padding-left: 0px;
+}
+.layout980 {
+	width:980px;
+}
+/*******************************************/
+.context .sectiontitle h1{
+	color:#f99712;
+}
+.context .sectiontitle span{
+	font-size:45px;
+}
+
+.parablock{
+	height:30px;
+	width:inherit;
+}

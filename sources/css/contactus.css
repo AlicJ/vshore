@@ -1,0 +1,24 @@
+/* style sheet for contact us page*/
+.contactUsText {
+    font-size: 14px;
+    line-height: 14px;
+}
+.contactUsText p {
+	line-height:20px;
+}
+
+.contactUsText h3 {
+    color: #f9b116;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 17px;
+    margin-top: 60px;
+}
+.contactUsText .last {
+    margin-bottom: 40px;
+}
+.contactUsText .map {
+    float:right;
+    box-shadow: 0 0 5px #aaa;
+    border-radius: 5px;
+}

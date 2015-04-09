@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+.index .banner {
+    height: 500px;
+    background: url('../images/topBg.jpg') center center #000;
+    position: relative;
+    overflow: visible;
+	border-top: 3px solid #F8B21B;
+}
+.index .download {
+    position:relative;
+}
+.index .iPhoneInfo {
+	width:350px;
+}
+.index .download .downloadIntro {
+    color: #FFFFFF;
+	font-size:16px;
+	opacity:0.95;
+    padding: 50px 0 0;
+   /*text-align: center;*/
+    text-shadow: 0 0 8px #000000;
+}
+.index .download .downloadIntro #title1 {
+	margin-bottom:0px;
+	padding:0px;
+	font-size:30px;
+	display: block;
+	/*font-weight:bold;*/
+
+
+	
+}
+.index .download .downloadIntro #title2{
+	margin-left:190px;
+	font-size:40px;
+	padding:0px;
+	margin-top:-10px;
+	display:block;
+	
+	
+}
+.index .download .downloadIntro #title3 {
+	margin-bottom:0px;
+	margin-top:-20px;
+	margin-left:190px;
+	padding:0px;
+	font-size:65px;
+	display: block;
+	/*font-weight:bold;*/
+}
+.index .download .downloadIntro p {
+	font-size:16px;
+	text-shadow: 0 0 2px #CCC;
+	color: #4D4D4D;
+	margin: 40px 0 60px
+}
+.index .download a.appBtn {
+    background: none repeat scroll 0 0 rgba(78, 81, 89, 0.7);
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    height: 60px;
+    padding: 10px 20px;
+    width: 200px;
+	margin-left: 10px;
+}
+.index .download a.appBtn:hover {
+    background: none repeat scroll 0 0 rgba(78, 81, 89, 0.9);
+}
+.index .download .appStore {
+    background: url("../images/icons.png") no-repeat scroll 0 -80px transparent;
+    height: 60px;
+    position: relative;
+    width: 196px;
+}
+.index .download .iPhonePics {
+    position: absolute;
+    top: -20px;
+    right: -80px;
+    width: 596px;
+    height: 585px;
+    background: url('../images/ios.png') 0 0px no-repeat;
+}
+.index .intro2 .slide {
+	float:left;
+    height: 200px;
+    text-align: center;
+    width: 192px;
+}
+.index .intro2 .pic {
+    background: url("../images/sliders.gif") no-repeat scroll 0 0 transparent;
+    height: 100px;
+    margin: 20px auto;
+    width: 140px;
+}
+.index .intro2 .pic1 {
+	background-position: 0 0;
+}
+.index .intro2 .pic2 {
+	background-position: -120px 0;
+}
+.index .intro2 .pic3 {
+	background-position: -250px 0;
+}
+.index .intro2 .pic4 {
+	background-position: 0 -90px;
+}
+.index .intro2 .pic5 {
+	background-position: -120px -90px;
+}
+.index .intro2 .pic6 {
+    background-position: -280px -100px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.index .intro2 .pic7 {
+    background-position: -420px -100px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.index .intro2 .caption {
+    color: #6E6E6E;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+}
+.index .intro2 .caption p {
+	margin:0;
+}
+.picSlide {
+	background-image:url(../images/iosscr.png);
+	height:386px;
+	width:219px;
+	position:absolute;
+	top:76px;
+	left:153px;
+	display:none;
+}
+.slide1 {
+	background-position: 0px 0px;
+}
+.slide2 {
+	background-position: 220px 0px;
+}
+.slide3 {
+	background-position: 0px 387px;
+}
+.slide4 {
+	background-position: 220px 387px;
+}
+
+.play{
+	background-image:url("../images/button.svg");
+	background-position:50%;
+	background-color:rgba(0,0,0,0.6);
+	box-shadow:0 0 15px rgba(0,0,0,0.6);
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.4);
+	border-radius:50%;
+	font-size:0px;
+	height:75px;
+	width:75px;
+	display:block;
+	float: left;
+	position: relative;
+	left: 300px;
+}
+
+.wrapper .intro2 p{
+	font-size: 16px;
+	color: #6A6A6A;
+	margin-top: 50px;
+	text-align: center;
+}

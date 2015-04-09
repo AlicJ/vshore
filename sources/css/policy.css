@@ -1,0 +1,22 @@
+/* style sheet for policy page*/
+.policyText {
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: #989898;
+}
+ul {
+	list-style: disc;
+}
+p {
+	margin: 10px 0 0 10px;
+	font-size: 12px;
+}
+h3, h2 {
+	text-decoration: underline;
+}
+h2 {
+	margin: 35px 0 15px 0;
+	text-align: center;
+}
+h3 {
+	margin: 25px 0 5px 0;
